@@ -1,0 +1,11 @@
+{
+  "logo_name": "xdc_network",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "enhancement_prompts": [
+    "professional xdc_network logo integration",
+    "xdc_network branding elements",
+    "crypto background with xdc_network theme"
+  ]
+}

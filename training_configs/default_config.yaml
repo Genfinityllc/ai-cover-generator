@@ -1,0 +1,39 @@
+# LoRA Training Configuration
+# Optimized for Mac Studio Metal
+
+# Model settings
+model_name: "stabilityai/stable-diffusion-xl-base-1.0"
+vae_name: null
+output_dir: "./models/lora"
+
+# LoRA settings
+network_module: "networks.lora"
+network_dim: 64
+network_alpha: 64
+network_train_unet_only: true
+network_weights: null
+
+# Training settings
+resolution: 1024
+batch_size: 1
+max_train_epochs: 1000
+learning_rate: 1e-4
+lr_scheduler: "cosine_with_restarts"
+optimizer_type: "AdamW8bit"
+
+# Data settings
+train_data_dir: "./training_data"
+reg_data_dir: null
+enable_bucket: true
+min_bucket_reso: 512
+max_bucket_reso: 1024
+
+# Memory optimization (Mac Studio)
+mixed_precision: "fp16"
+gradient_checkpointing: true
+xformers: true
+lowram: true
+
+# Output settings
+save_every_n_epochs: 100
+save_model_as: "safetensors"

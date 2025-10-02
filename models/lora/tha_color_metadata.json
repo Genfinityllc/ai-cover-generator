@@ -1,0 +1,14 @@
+{
+  "client_name": "tha_color",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "professional tha_color crypto background",
+    "tha_color blockchain technology theme",
+    "crypto finance tha_color branding"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.716760",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

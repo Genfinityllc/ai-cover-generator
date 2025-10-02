@@ -1,0 +1,14 @@
+{
+  "client_name": "hashpack_color",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "professional hashpack_color crypto background",
+    "hashpack_color blockchain technology theme",
+    "crypto finance hashpack_color branding"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.717310",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

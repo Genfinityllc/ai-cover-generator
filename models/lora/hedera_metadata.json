@@ -1,0 +1,15 @@
+{
+  "client_name": "hedera",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "Hedera Hashgraph distributed ledger background",
+    "hashgraph technology Hedera theme",
+    "Hedera network crypto visualization",
+    "professional Hedera blockchain design"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.717727",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

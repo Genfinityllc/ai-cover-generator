@@ -1,0 +1,93 @@
+{
+  "created_at": "2025-10-01T14:39:14.718757",
+  "total_clients": 17,
+  "successful": 17,
+  "failed": 0,
+  "results": {
+    "bitcoin_test": {
+      "status": "success",
+      "lora_path": "models/lora/bitcoin_test_lora.safetensors",
+      "num_images": 10
+    },
+    "genfinity_black": {
+      "status": "success",
+      "lora_path": "models/lora/genfinity_black_lora.safetensors",
+      "num_images": 25
+    },
+    "hashpack": {
+      "status": "success",
+      "lora_path": "models/lora/hashpack_lora.safetensors",
+      "num_images": 25
+    },
+    "xdc_logo": {
+      "status": "success",
+      "lora_path": "models/lora/xdc_logo_lora.safetensors",
+      "num_images": 25
+    },
+    "constellation": {
+      "status": "success",
+      "lora_path": "models/lora/constellation_lora.safetensors",
+      "num_images": 25
+    },
+    "hbar": {
+      "status": "success",
+      "lora_path": "models/lora/hbar_lora.safetensors",
+      "num_images": 25
+    },
+    "tha_color": {
+      "status": "success",
+      "lora_path": "models/lora/tha_color_lora.safetensors",
+      "num_images": 25
+    },
+    "constellation_alt": {
+      "status": "success",
+      "lora_path": "models/lora/constellation_alt_lora.safetensors",
+      "num_images": 25
+    },
+    "genfinity": {
+      "status": "success",
+      "lora_path": "models/lora/genfinity_lora.safetensors",
+      "num_images": 25
+    },
+    "hashpack_color": {
+      "status": "success",
+      "lora_path": "models/lora/hashpack_color_lora.safetensors",
+      "num_images": 25
+    },
+    "pxf4y8sq_400x400": {
+      "status": "success",
+      "lora_path": "models/lora/pxf4y8sq_400x400_lora.safetensors",
+      "num_images": 25
+    },
+    "hedera": {
+      "status": "success",
+      "lora_path": "models/lora/hedera_lora.safetensors",
+      "num_images": 25
+    },
+    "hedera_foundation": {
+      "status": "success",
+      "lora_path": "models/lora/hedera_foundation_lora.safetensors",
+      "num_images": 25
+    },
+    "xdc_network": {
+      "status": "success",
+      "lora_path": "models/lora/xdc_network_lora.safetensors",
+      "num_images": 25
+    },
+    "algorand": {
+      "status": "success",
+      "lora_path": "models/lora/algorand_lora.safetensors",
+      "num_images": 25
+    },
+    "tha": {
+      "status": "success",
+      "lora_path": "models/lora/tha_lora.safetensors",
+      "num_images": 25
+    },
+    "hedera_foundation_alt": {
+      "status": "success",
+      "lora_path": "models/lora/hedera_foundation_alt_lora.safetensors",
+      "num_images": 25
+    }
+  }
+}

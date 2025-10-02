@@ -1,0 +1,15 @@
+{
+  "client_name": "algorand",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "Algorand proof of stake blockchain background",
+    "green sustainable crypto Algorand theme",
+    "Algorand blockchain professional design",
+    "carbon neutral crypto Algorand branding"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.718290",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

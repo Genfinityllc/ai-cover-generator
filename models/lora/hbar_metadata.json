@@ -1,0 +1,14 @@
+{
+  "client_name": "hbar",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "professional hbar crypto background",
+    "hbar blockchain technology theme",
+    "crypto finance hbar branding"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.716582",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

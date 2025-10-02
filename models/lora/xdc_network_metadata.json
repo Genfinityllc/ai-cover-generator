@@ -1,0 +1,15 @@
+{
+  "client_name": "xdc_network",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "professional XDC Network blockchain background",
+    "enterprise blockchain with XDC branding",
+    "XDC Network logo integration crypto background",
+    "banking blockchain XDC Network theme"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.718105",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

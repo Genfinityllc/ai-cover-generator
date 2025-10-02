@@ -1,0 +1,14 @@
+{
+  "client_name": "hedera_foundation",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "professional hedera_foundation crypto background",
+    "hedera_foundation blockchain technology theme",
+    "crypto finance hedera_foundation branding"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.717917",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

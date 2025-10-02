@@ -1,0 +1,14 @@
+{
+  "client_name": "pxf4y8sq_400x400",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "professional pxf4y8sq_400x400 crypto background",
+    "pxf4y8sq_400x400 blockchain technology theme",
+    "crypto finance pxf4y8sq_400x400 branding"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.717542",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

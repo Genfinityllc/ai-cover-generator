@@ -1,0 +1,14 @@
+{
+  "client_name": "genfinity_black",
+  "type": "enhanced_prompt",
+  "num_images": 25,
+  "enhancement_prompts": [
+    "professional genfinity_black crypto background",
+    "genfinity_black blockchain technology theme",
+    "crypto finance genfinity_black branding"
+  ],
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "created_at": "2025-10-01T14:39:14.715457",
+  "status": "production_ready",
+  "implementation": "client_specific_theming"
+}

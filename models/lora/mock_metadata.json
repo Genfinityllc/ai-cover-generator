@@ -1,0 +1,22 @@
+{
+  "type": "mock_loras",
+  "created": "2025-10-01T12:06:04.824384",
+  "files": [
+    "models/lora/xdc_network_lora.safetensors",
+    "models/lora/xdc_logo_lora.safetensors",
+    "models/lora/hedera_lora.safetensors",
+    "models/lora/hedera_foundation_lora.safetensors",
+    "models/lora/hbar_lora.safetensors",
+    "models/lora/hashpack_lora.safetensors",
+    "models/lora/hashpack_color_lora.safetensors",
+    "models/lora/constellation_lora.safetensors",
+    "models/lora/constellation_alt_lora.safetensors",
+    "models/lora/algorand_lora.safetensors",
+    "models/lora/tha_lora.safetensors",
+    "models/lora/tha_color_lora.safetensors",
+    "models/lora/genfinity_lora.safetensors",
+    "models/lora/genfinity_black_lora.safetensors"
+  ],
+  "note": "These are mock files for API testing. Real LoRA training needs to be implemented with proper diffusers version.",
+  "api_ready": true
+}

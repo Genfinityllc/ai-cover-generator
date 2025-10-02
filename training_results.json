@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-10-01T12:03:56.313950",
+  "total_duration_hours": 0.09598968307177226,
+  "successful": [],
+  "failed": [
+    {
+      "name": "xdc_network",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 252.88159799575806
+    },
+    {
+      "name": "xdc_logo",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 6.934577941894531
+    },
+    {
+      "name": "hedera",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 6.953993797302246
+    },
+    {
+      "name": "hedera_foundation",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 6.917640924453735
+    },
+    {
+      "name": "hbar",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.222283124923706
+    },
+    {
+      "name": "hashpack",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.149736166000366
+    },
+    {
+      "name": "hashpack_color",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.110532283782959
+    },
+    {
+      "name": "constellation",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.148148775100708
+    },
+    {
+      "name": "constellation_alt",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.0239012241363525
+    },
+    {
+      "name": "algorand",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.2203052043914795
+    },
+    {
+      "name": "tha",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.246667146682739
+    },
+    {
+      "name": "tha_color",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.385184049606323
+    },
+    {
+      "name": "genfinity",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.203377962112427
+    },
+    {
+      "name": "genfinity_black",
+      "error": "ckend/ai-cover-generator/scripts/train_lora_simple.py\", line 104, in setup_lora_layers\n    attn_procs[name] = LoRAAttnProcessor(\nTypeError: __init__() got an unexpected keyword argument 'hidden_size'\n",
+      "duration": 7.158858060836792
+    }
+  ],
+  "summary": {
+    "total_clients": 14,
+    "successful_count": 0,
+    "failed_count": 14,
+    "success_rate": 0.0
+  }
+}

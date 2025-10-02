@@ -1,0 +1,24 @@
+[build]
+builder = "DOCKERFILE"
+buildCommand = "pip install -r requirements.txt"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
+
+[environments.production]
+variables = {
+  PORT = "8000",
+  PYTHONPATH = "/app",
+  PYTHONUNBUFFERED = "1"
+}
+
+[environments.staging]
+variables = {
+  PORT = "8000",
+  DEBUG = "true",
+  PYTHONPATH = "/app",
+  PYTHONUNBUFFERED = "1"
+}
