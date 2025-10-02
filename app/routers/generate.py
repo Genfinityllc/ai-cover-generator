@@ -6,7 +6,12 @@ import uuid
 import asyncio
 
 from ..models.requests import GenerateCoverRequest, ManualGenerateRequest
-from ..services.ai_service import AIService
+try:
+    from ..services.ai_service import AIService
+    MOCK_MODE = False
+except ImportError:
+    from ..services.mock_ai_service import MockAIService as AIService
+    MOCK_MODE = True
 from ..services.storage_service import StorageService
 from ..core.logging import setup_logging
 
