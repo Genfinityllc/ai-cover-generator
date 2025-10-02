@@ -44,20 +44,41 @@ if os.path.exists("./temp_images"):
 
 @app.on_event("startup")
 async def startup_event():
-    """Initialize services on startup"""
+    """Initialize services on startup - Non-blocking for Railway health checks"""
     logger.info("🚀 Starting AI Cover Image Generator API")
     
-    # Initialize AI model (lazy loading)
-    from .services.ai_service import AIService
-    ai_service = AIService()
-    await ai_service.initialize()
-    
-    # Initialize storage service
-    from .services.storage_service import StorageService
-    storage_service = StorageService()
-    await storage_service.initialize()
-    
-    logger.info("✅ All services initialized successfully")
+    try:
+        # Initialize storage service first (lightweight)
+        from .services.storage_service import StorageService
+        storage_service = StorageService()
+        await storage_service.initialize()
+        
+        logger.info("✅ Storage service initialized")
+        
+        # Initialize AI model in background (heavy operation)
+        # Don't block startup for Railway health checks
+        import asyncio
+        asyncio.create_task(initialize_ai_models())
+        
+        logger.info("✅ API started - AI models initializing in background")
+        
+    except Exception as e:
+        logger.error(f"❌ Startup error: {str(e)}")
+        # Don't fail startup - let health check handle it
+
+async def initialize_ai_models():
+    """Initialize AI models in background"""
+    try:
+        logger.info("🧠 Initializing AI models...")
+        
+        from .services.ai_service import AIService
+        ai_service = AIService()
+        await ai_service.initialize()
+        
+        logger.info("✅ AI models initialized successfully")
+        
+    except Exception as e:
+        logger.error(f"❌ AI model initialization failed: {str(e)}")
 
 @app.on_event("shutdown")
 async def shutdown_event():
