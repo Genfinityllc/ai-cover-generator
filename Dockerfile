@@ -1,16 +1,24 @@
-# Use Python 3.11 slim image
-FROM python:3.11-slim
+# Use Python 3.11 image with more tools for ML
+FROM python:3.11
 
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies for ML workloads
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
     make \
     libffi-dev \
     libssl-dev \
+    git \
+    curl \
+    wget \
+    libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libgomp1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first (for better caching)

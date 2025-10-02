@@ -8,6 +8,11 @@ healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 3
 
+# Configure for heavy ML workloads
+[env]
+NIXPACKS_BUILD_TIMEOUT = "3600"
+RAILWAY_BUILDPACK_PYTHON_VERSION = "3.11"
+
 [environments.production]
 variables = {
   PORT = "8000",
