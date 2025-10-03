@@ -102,9 +102,8 @@ class SimpleLoRATrainer:
                 hidden_size = self.unet.config.block_out_channels[block_id]
             
             attn_procs[name] = LoRAAttnProcessor(
-                hidden_size=hidden_size, 
-                cross_attention_dim=cross_attention_dim,
-                rank=rank
+                rank=rank,
+                network_alpha=rank
             )
         
         self.unet.set_attn_processor(attn_procs)

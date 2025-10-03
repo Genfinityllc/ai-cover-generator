@@ -1,19 +1,21 @@
 from .requests import (
-    GenerateImageRequest,
+    ImageSize,
+    WatermarkPosition,
+    GenerateCoverRequest,
+    ManualGenerateRequest,
     GenerateImageResponse,
     BatchGenerateRequest,
     BatchGenerateResponse,
-    ImageMetadata,
-    ImageStyle,
-    GenerationMode
+    ImageMetadata
 )
 
 __all__ = [
-    "GenerateImageRequest",
+    "ImageSize",
+    "WatermarkPosition",
+    "GenerateCoverRequest",
+    "ManualGenerateRequest",
     "GenerateImageResponse", 
     "BatchGenerateRequest",
     "BatchGenerateResponse",
-    "ImageMetadata",
-    "ImageStyle",
-    "GenerationMode"
+    "ImageMetadata"
 ]
