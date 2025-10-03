@@ -63,7 +63,7 @@ class GenerateImageResponse(BaseModel):
 
 class BatchGenerateRequest(BaseModel):
     """Request model for batch generation"""
-    requests: List[GenerateImageRequest] = Field(..., max_items=10)
+    requests: List[GenerateCoverRequest] = Field(..., max_items=10)
     
 class BatchGenerateResponse(BaseModel):
     """Response model for batch generation"""
