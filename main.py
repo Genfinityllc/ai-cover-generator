@@ -46,7 +46,7 @@ class GenerateResponse(BaseModel):
     image_url: Optional[str] = None
     error: Optional[str] = None
 
-@app.get("/")
+@app.get("/", include_in_schema=True)
 async def root():
     """Root endpoint"""
     logger.info("Root endpoint accessed")
