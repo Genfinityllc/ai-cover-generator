@@ -8,6 +8,7 @@ import asyncio
 from ..models.requests import GenerateCoverRequest, ManualGenerateRequest
 from ..services.ai_service import AIService
 from ..services.storage_service import StorageService
+from ..services.layout_aware_generator import LayoutAwareGenerator
 from ..core.logging import setup_logging
 
 router = APIRouter()
